@@ -1,0 +1,394 @@
+* {
+    background:linear-gradient(to right, #E6E6E6, #D4D4D4);
+    animation:  fade ease-in-out 1s;
+    font-family: Tahoma, Helvetica, sans-serif;
+}
+
+
+@keyframes fade{
+    0%{
+        opacity:  0;
+    }
+    100%{
+        opacity:  1;
+    }
+}
+
+
+html {
+    scroll-behavior: smooth;
+}
+
+.heading-class {
+    font: cursive;
+    color:#767676; 
+    text-align: center; 
+    font-size:3vw
+}
+
+.heading-class p{
+    text-decoration: underline;
+    border: 4px;
+    border-style: outset;
+    padding: 25px;
+    border-radius: 15px;
+
+}
+
+.second-heading-class p{
+    color:#767676; 
+    text-align: center; 
+    font-size: 2vw;
+    margin-bottom: 120px;
+}
+
+.child-details {
+    display:  flex;
+    margin-top: -110px;
+    float: safe center;
+    justify-content: safe center;
+    text-align: safe center;
+}
+
+.media-link {
+    list-style: none;
+    margin: 100px 10px 110px 10px;
+    justify-content: safe left;
+    width: 12%;
+    text-align: left; 
+    font-size:1.25vw;
+    border: 4px;
+    border-style: groove;
+    border-radius: 15px;
+
+}
+
+.media-link li{
+
+    list-style-image: url('./files/point.png'); 
+
+}
+
+
+.media-text {
+    margin: -410px auto -10px auto;
+    color: #000000;
+    padding: 20px;
+    display:  flex;
+    float: center;
+    width: 50%;
+    height: 300px;
+}
+
+
+.body-class {
+
+}
+
+
+.grogu-class {
+    margin-top: -320px;
+    width: 20%;
+    height: 20%;
+    display:  flex;
+    float: right;
+    justify-content: right;
+}
+
+.grogu-class img{
+    width: 100%;
+    height: 100%;
+}
+
+
+
+.child-one {
+    position: relative;
+    left: 10px
+    color: #000000;
+
+
+}
+
+.groot-class {
+    float: right;
+    width: 20%;
+    height: 20%;
+}
+
+
+.groot-class img{
+    width: 100%;
+    height: 100%;
+    margin-top: 0;
+    padding-top: 0;
+    border-top: -250px;
+}
+
+
+.child-two {
+    color: #000000;
+    input: checked;
+    width: 35%;
+    margin-right: 30%;
+    margin-left: 30%;
+}
+
+.radio-class {
+    display:  flex;
+    float: center;
+    width: 20%;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+
+}
+
+input[type="radio"]:checked {
+  box-shadow: 0 0 0 3px #767676;
+}
+
+
+.list-item{
+    justify-content: center;
+    width: 80px;
+    margin: auto;
+}
+
+
+.Ulist-item {
+    width: 35%;
+    margin: auto;
+    border: 4px;
+    border-color: #767676;
+    border-style: inset;
+    border-radius: 15px;
+    padding-bottom: 10px;
+    list-style: square;
+    list-style: none;
+}
+
+.Ulist-item li{
+    width: 28%;
+    margin: auto;
+
+}
+
+.cf {
+    list-style-image: url('./files/CF_s.png');
+}
+.kt {
+    list-style-image: url('./files/KT_s.png');
+}
+.ps {
+    list-style-image: url('./files/PS_s.png');
+}
+.ss {
+    list-style-image: url('./files/SS_s.png');
+}
+.bp {
+    list-style-image: url('./files/BP_s.png');
+}
+.gd {
+    list-style-image: url('./files/GD_s.png');
+}
+
+.sz {
+    list-style-image: url('./files/SZ_s.png');
+}
+
+
+.drop-one {
+    left: 0px;
+    height: 22px;
+    width: 105px;
+    margin:-200px 0px 0px 0px;
+
+    justify-content: left;
+}
+
+
+
+.child-three {
+    display:  flex;
+    float: left;
+    height: 22px;
+    width : 166px;
+    border-top: 50px;
+    border-bottom: 50px;
+    justify-content: left;
+
+}
+
+
+.child-three input{
+    /* left: 0px; */
+    /* top: 0px; */
+    width: 166px;
+    /* height: 24px; */
+    /* border-top: 50px; */
+    /* border-bottom: 50px; */
+    justify-content: left;
+}
+
+.child-three p{
+    writing-mode: vertical-lr;
+    display: flex;
+    position: center;
+    margin:-55px 0px 0px 50px;
+    width: 20px;
+    height: 215px;
+    border-top: 50px;
+    border-bottom: 50px;
+}
+
+
+.child-four {
+    height: 22px;
+    width : 208px;
+    border-top: 70px;
+    border-bottom: 50px;
+}
+
+.child-four form{
+    height: 22px;
+    width : 208px;
+    border-top: 50px;
+    border-bottom: 50px;
+    justify-content: left;
+}
+
+.child-five {
+    display:  flex;
+    width: 166px;
+    height: 22px;
+    border-top: 100px;
+    border-bottom: 50px;
+    justify-content: left;
+}
+
+.child-six {
+    display:  flex;
+    width: 166px;
+    height: 22px;
+    border: 10px 0px 10px 0px;
+    justify-content: left;
+    margin-bottom: 100px;
+}
+
+
+.child-seven {
+    display:  flex;
+    width: 60%;
+    height: 60%;
+    align-content: center;
+    justify-content: center;
+    margin-top: -200px;
+    margin: auto;
+}
+
+
+.child-seven source{
+    color: #767676;
+    padding: 25px;
+    border: 10px;
+    border-style: inset;
+    margin: 20px;
+}
+
+
+.child-eight {
+    display:  flex;
+    justify-content: center;
+    padding: 10px;
+    margin: 20px;
+
+}
+
+.child-nine {
+    display:  flex;
+    gap: 25px;
+    justify-content: center;
+    overflow: auto;
+    resize: both;
+    padding-bottom: 30px ;
+}
+
+.child-nine iframe{
+    color: #767676;
+    border: 4px;
+    border-style: inset;
+}
+
+
+.child-ten {
+    display:  flex;
+    width: 99%;
+    height: 95%;
+    color: #767676;
+    border: 4px;
+    border-style: inset;
+}
+
+.child-ten td{
+    color: #000000;
+    border: 4px;
+    border-style: inset;
+}
+
+.footer-class {
+
+}
+
+th:hover, .ordered:hover, .ordered2:hover, input:focus, grogu-class:hover {
+    background: #878787;
+}
+
+td:hover {
+    background: #D6D6D6;
+}
+
+.top-class {
+    display:  flex;
+    justify-content: center;
+}
+
+.container {
+    display: flex;
+    width: 20rem;
+    height: 20rem;
+    background: #5E57D1;
+    overflow-x: scroll;
+    scroll-snap-type: x mandatory;
+    border: 5px #767676;
+    border-style: inset;
+}
+
+.container div {
+    min-width:  20rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 10rem;
+    color: #767676;
+    scroll-snap-align:  center;
+}
+
+.nr1 {
+    display:  flex;
+    justify-content: center;
+    text-align: center;
+
+
+
+
+}
+
+.container-text a{
+    display:  flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    font-size: 2rem;
+}
+
